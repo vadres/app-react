@@ -2,30 +2,30 @@
   "donations": [
      {
        "avatar": "https://osegredo.com.br/wp-content/uploads/2017/06/10-Sinais-de-que-voc%C3%AA-%C3%A9-uma-pessoa-seletiva-830x450.jpg",
-       "name: "Simone Silva",
+       "name": "Simone Silva",
        "qtd": 3,
-       "item": "clothing"
+       "item": "clothing",
        "description": "Doando essas roupas velhas"
      },
       {
        "avatar": "https://static1.conquistesuavida.com.br/articles//4/51/04/@/16524-personalidade-para-alcancar-o-degrau-da-article_gallery-2.jpg",
-       "name: "Daniel Taurus",
+       "name": "Daniel Taurus",
        "qtd": 1,
-       "item": "shoe"
+       "item": "shoe",
        "description": "Calçados velhos"
      },
       {
        "avatar": "https://media.metrolatam.com/2019/10/07/coringa-a56aad4bbc92366468a2e7eebe0f2fbc-1200x600.jpg",
-       "name: "Coringa Silva",
+       "name": "Coringa Silva",
        "qtd": 1,
-       "item": "clothing"
+       "item": "clothing",
        "description": "Doando essas roupas velhas"
      },
       {
        "avatar": "https://media.gazetadopovo.com.br/2017/10/d44dae71cf322bbdc8743dbdbd1017f5-gpMedium.jpeg",
-       "name: "Emannuelle Oliveira Cunha e Silva",
+       "name": "Emannuelle Oliveira Cunha e Silva",
        "qtd": 2,
-       "item": "utensil"
+       "item": "utensil",
        "description": "Carregador quebrado"
      }
      
