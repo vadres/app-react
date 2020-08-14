@@ -1,32 +1,302 @@
 {
-   "donations":[
+   "users: [
+   {
+   "id":2,
+   "username":"admin",
+   "email":"diegodfreire@gmail.com",
+   "nome":"Administrador",
+   "age":null,
+   "menus":[
       {
-         "urlImg":"https://osegredo.com.br/wp-content/uploads/2017/06/10-Sinais-de-que-voc%C3%AA-%C3%A9-uma-pessoa-seletiva-830x450.jpg",
-         "name":"Zimone Silva",
-         "qtd":3,
-         "item":"clothing",
-         "description":"Doando essas roupas velhas"
+         "id":5,
+         "key":"home",
+         "icon":"home",
+         "link":"/",
+         "title":"HOME",
+         "ordering":1,
+         "submenus":[
+
+         ],
+         "addButton":false,
+         "className":"menu-bold",
+         "descricao":null
       },
       {
-         "urlImg":"https://static1.conquistesuavida.com.br/articles//4/51/04/@/16524-personalidade-para-alcancar-o-degrau-da-article_gallery-2.jpg",
-         "name":"Daniel Taurus",
-         "qtd":1,
-         "item":"shoe",
-         "description":"Calçados velhos"
+         "id":2,
+         "key":"atendimento",
+         "icon":"medicine-box",
+         "link":"#!",
+         "title":"ATENDIMENTO",
+         "ordering":2,
+         "submenus":[
+            {
+               "id":7,
+               "key":"agenda",
+               "icon":"minus",
+               "link":"/atendimento/agenda",
+               "title":"Agenda",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":8,
+               "key":"pacientes",
+               "icon":"minus",
+               "link":"/atendimento/pacientes",
+               "title":"Pacientes",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":11,
+               "key":"convenios",
+               "icon":"minus",
+               "link":"/atendimento/convenios",
+               "title":"Convênios",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":18,
+               "key":"procedimentos",
+               "icon":"minus",
+               "link":"/atendimento/procedimentos",
+               "title":"Procedimentos",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            }
+         ],
+         "addButton":false,
+         "className":"menu-bold",
+         "descricao":null
       },
       {
-         "urlImg":"https://media.metrolatam.com/2019/10/07/coringa-a56aad4bbc92366468a2e7eebe0f2fbc-1200x600.jpg",
-         "name":"Coringa Silva",
-         "qtd":1,
-         "item":"clothing",
-         "description":"Doando essas roupas velhas"
+         "id":3,
+         "key":"administracao",
+         "icon":"profile",
+         "link":"/administracao",
+         "title":"ADMINISTRACAO",
+         "ordering":3,
+         "submenus":[
+            {
+               "id":9,
+               "key":"usuarios",
+               "icon":"minus",
+               "link":"/administracao/usuarios",
+               "title":"Usuarios",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":10,
+               "key":"profissionais",
+               "icon":"minus",
+               "link":"/administracao/profissionais",
+               "title":"Profissionais",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":12,
+               "key":"alocacao",
+               "icon":"minus",
+               "link":"/administracao/alocacao",
+               "title":"Alocação Profissional",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":13,
+               "key":"perfis",
+               "icon":"minus",
+               "link":"/administracao/perfis",
+               "title":"Perfis",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":17,
+               "key":"locais",
+               "icon":"minus",
+               "link":"/administracao/locais",
+               "title":"Locais",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            }
+         ],
+         "addButton":false,
+         "className":"menu-bold",
+         "descricao":null
       },
       {
-         "urlImg":"https://media.gazetadopovo.com.br/2017/10/d44dae71cf322bbdc8743dbdbd1017f5-gpMedium.jpeg",
-         "name":"Emannuelle Oliveira Cunha e Silva",
-         "qtd":2,
-         "item":"utensil",
-         "description":"Carregador quebrado"
+         "id":1,
+         "key":"empresa",
+         "icon":"setting",
+         "link":"/empresa",
+         "title":"EMPRESA",
+         "ordering":4,
+         "submenus":[
+
+         ],
+         "addButton":false,
+         "className":"menu-bold",
+         "descricao":null
+      },
+      {
+         "id":6,
+         "key":"financeiro",
+         "icon":"credit-card",
+         "link":"/financeiro",
+         "title":"FINANCEIRO",
+         "ordering":5,
+         "submenus":[
+            {
+               "id":14,
+               "key":"usuarios",
+               "icon":"minus",
+               "link":"/financeiro/usuarios",
+               "title":"Resumo",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":15,
+               "key":"entradas",
+               "icon":"minus",
+               "link":"/financeiro/entradas",
+               "title":"Entradas",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":16,
+               "key":"saidas",
+               "icon":"minus",
+               "link":"/financeiro/saidas",
+               "title":"Saídas",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":19,
+               "key":"categorias",
+               "icon":"minus",
+               "link":"/financeiro/categorias",
+               "title":"Categorias",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            },
+            {
+               "id":20,
+               "key":"fluxo",
+               "icon":"minus",
+               "link":"/financeiro/fluxo",
+               "title":"Fluxo de Caixa",
+               "ordering":null,
+               "submenus":[
+
+               ],
+               "addButton":false,
+               "className":null,
+               "descricao":null
+            }
+         ],
+         "addButton":false,
+         "className":"menu-bold",
+         "descricao":null
+      },
+      {
+         "id":4,
+         "key":"logout",
+         "icon":"logout",
+         "link":"/logout",
+         "title":"SAIR",
+         "ordering":115,
+         "submenus":[
+
+         ],
+         "addButton":false,
+         "className":"menu-bold",
+         "descricao":null
       }
+   ],
+   "roles":null,
+   "createdAt":"2020-06-18T05:30:49.823Z",
+   "updatedAt":"2020-06-18T05:30:49.823Z",
+   "deletedAt":null,
+   "empresa":{
+      "id":1,
+      "nome":"empresa teste",
+      "cnpj":null,
+      "createdAt":"2020-06-18T05:30:49.620Z",
+      "updatedAt":"2020-06-18T05:30:49.620Z",
+      "deletedAt":null
+   }
+}
    ]
 }
